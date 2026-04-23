@@ -53,7 +53,7 @@ public class UmbrellaDBManager {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return null;
+        return "AUTHENTICATION FAILED";
     }
 
     // Fitur Tambah Data (Grup B)
